@@ -87,16 +87,7 @@
                 min-height: 300px;
             }
         }
-        .footer {
-            background-color: #333;
-            color: #ffffff; /* Белый текст */
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            font-size: 20px; /* Увеличенный шрифт */
-            font-weight: bold; /* Жирный текст */
-        }
+        
     </style>
 </head>
 <body>
@@ -192,14 +183,7 @@
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2yjDdlaGUKHHM1RItY448XV6H5kxw0UpRLDG48FJ59Fqzpw/viewform?embedded=true" frameborder="0">Загрузка формы...</iframe>
     </div>
 
-    <div class="footer">
-        <p>
-            <span class="lang kz">Телефон нөміріңізді қалдырыңыз, бірінші болып осы ЖИ қолданып көріңіз немесе Түркияға алдын ала төлемсіз түсуге ұтып алыңыз!</span><br>
-            <span class="lang ru">Оставьте номер телефона, чтобы первыми попробовать эти ИИ или выиграть поступление в Турцию без предоплаты!</span>
-        </p>
-    </div>
-
-    <script>
+        <script>
         document.getElementById("form-link").addEventListener("click", function(e) {
             e.preventDefault();
             document.querySelector(".form-section").scrollIntoView({ behavior: "smooth" });
